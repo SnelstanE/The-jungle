@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller Light'), local('Muller-Light'),
+        url('MullerLight.woff2') format('woff2'),
+        url('MullerLight.woff') format('woff'),
+        url('MullerLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Muller';
+    src: local('Muller Extra Bold'), local('Muller-Extra-Bold'),
+        url('MullerExtraBold.woff2') format('woff2'),
+        url('MullerExtraBold.woff') format('woff'),
+        url('MullerExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Muller';
+    src: local('Muller Medium'), local('Muller-Medium'),
+        url('MullerMedium.woff2') format('woff2'),
+        url('MullerMedium.woff') format('woff'),
+        url('MullerMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+body{
+    box-sizing: border-box;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+    cursor: pointer;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}
+
+li{
+    list-style-type: none;
+    color: white;
+}
+
+.header{
+    font-size: 25px;
+    display: flex;
+    margin-top: -1090px;
+    position: absolute;
+    font-family: 'MullerMedium', sans-serif;
+
+}
+
+.Home{
+    margin-left: 682px;
+    margin-top: 67px;
+    position: absolute;
+}
+
+.About{
+    margin-left: 850px;
+    margin-top: 67px;
+    position: absolute;
+}
+
+.Blog{
+    margin-left: 1027px;
+    margin-top: 67px;
+    position: absolute;
+}
+
+.Contact{
+    margin-left: 1177px;
+    margin-top: 67px;
+    position: absolute;
+}
+
+.text_name{
+    position: absolute;
+    font-family: 'Muller';
+    font-weight: 900;
+    font-size: 95px;
+    margin-top: -826px;
+    margin-left: 135px;
+}
+.text_down{
+    position: absolute;
+    font-family: 'Muller';
+    font-size: 25px;
+    margin-top: -620px;
+    margin-left: 135px;
+}
+
+
+#myButton {
+    border: 3px solid #FFF;
+    background-color: transparent;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -516px;
+    margin-left: 135px;
+    border-radius: 46px;
+    width: 137px;
+    height: 56px;
+}
+
+#myButton:hover{
+    background-color: #e8f9fc;
+    -webkit-transition: all 1s;
+    opacity: 0.2;
+}
+.line{
+    margin-top: -500px;
+    margin-left: 287px;
+    position: absolute;
+}
+.btn_text{
+    position: absolute;
+    margin-top: -499px;
+    font-size: 25px;
+    color: white;
+    margin-left: 173px;
+    font-family: 'Muller', sans-serif;
+}
+
+.ch{
+    position: absolute;
+    margin-top: -413px;
+    color: white;
+    font-family: 'Muller', sans-serif;
+    font-size: 25px;
+    margin-left: 170px;
+}
+.text_for_100{
+    position: absolute;
+    font-family: 'Muller';
+    margin-left: 135px;
+    margin-top: -374px;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.palka{
+    position: absolute;
+    border-left: 3.4px solid white;
+    height: 20px;
+    padding: 10px;
+    margin-top: -389px;
+    margin-left: 292px;
+}
+.ch_2{
+    position: absolute;
+    margin-top: -413px;
+    color: white;
+    font-family: 'Muller', sans-serif;
+    font-size: 25px;
+    margin-left: 170px;
+}
+.text_for_20{
+    position: absolute;
+    font-family: 'Muller';
+    margin-left: 135px;
+    margin-top: -374px;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.palka_2{
+    position: absolute;
+    border-left: 3.4px solid white;
+    height: 20px;
+    padding: 10px;
+    margin-top: -389px;
+    margin-left: 272px;
+}
+
+.s{
+    position: absolute;
+    margin-left: 191px;
+}
+
+.ch_3{
+    position: absolute;
+    margin-top: -413px;
+    color: white;
+    font-family: 'Muller', sans-serif;
+    font-size: 25px;
+    margin-left: 170px;
+}
+.text_for_1{
+    position: absolute;
+    font-family: 'Muller';
+    margin-left: 135px;
+    margin-top: -374px;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.a{
+    margin-left: 365px;
+}
+
+.line_left{
+    position: absolute;
+    width: 153px;
+    height: 5px;
+    background-color: #FFF;
+    margin-top: -595px;
+    margin-left: 1769px;
+}
+
+.number_0{
+    color: rgba(255, 255, 255, 0.80);
+font-family: 'Muller';
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+position: absolute;
+margin-left: 1720px;
+margin-top: -655px;
+}
+.number_1{
+    color: rgba(255, 255, 255, 1);
+font-family: 'Muller';
+font-size: 55px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+position: absolute;
+margin-left: 1700px;
+margin-top: -615px;
+opacity: 0.9;
+}
+.number_2{
+    color: rgba(255, 255, 255, 0.80);
+font-family: 'Muller';
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+position: absolute;
+margin-left: 1720px;
+margin-top: -570px;
+}
+.number_3{
+    color: rgba(255, 255, 255, 0.60);
+font-family: 'Muller';
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+position: absolute;
+margin-left: 1735px;
+margin-top: -525px;
+}
+.number_4{
+    color: rgba(255, 255, 255, 0.40);
+font-family: 'Muller';
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+position: absolute;
+margin-left: 1750px;
+margin-top: -480px;
+}
