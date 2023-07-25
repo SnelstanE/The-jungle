@@ -56,6 +56,17 @@ li{
     margin-left: 682px;
     margin-top: 67px;
     position: absolute;
+    transition: .5s;
+}
+Home:before{
+    content: '';
+    position: relative;
+    width: 68px;
+    height: 3px;
+    background-color: red;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .About{
@@ -106,6 +117,8 @@ li{
     height: 56px;
 }
 
+
+
 #myButton:hover{
     background-color: #e8f9fc;
     -webkit-transition: all 1s;
@@ -116,6 +129,7 @@ li{
     margin-left: 287px;
     position: absolute;
 }
+
 .btn_text{
     position: absolute;
     margin-top: -499px;
