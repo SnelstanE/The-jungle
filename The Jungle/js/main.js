@@ -58,7 +58,7 @@ About.addEventListener('mouseout', function (){
 })
 
 Blog.addEventListener('mousemove', function sx(){
-    Blog.style.width = '67px';
+    Blog.style.width = '50px';
     Blog.style.height = '3px';
     Blog.style.content = '';
     Blog.style.background = 'white';
@@ -74,7 +74,7 @@ Blog.addEventListener('mouseout', function (){
 })
 
 Contact.addEventListener('mousemove', function sx(){
-    Contact.style.width = '67px';
+    Contact.style.width = '85px';
     Contact.style.height = '3px';
     Contact.style.content = '';
     Contact.style.background = 'white';
