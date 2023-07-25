@@ -42,49 +42,49 @@ Home.addEventListener('mouseout', function (){
     Home.style.marginTop = '65px';
 })
 About.addEventListener('mousemove', function sx(){
-    Home.style.width = '67px';
-    Home.style.height = '3px';
-    Home.style.content = '';
-    Home.style.background = 'white';
-    Home.style.marginTop = '60px';
+    About.style.width = '67px';
+    About.style.height = '3px';
+    About.style.content = '';
+    About.style.background = 'white';
+    About.style.marginTop = '60px';
 })
 About.addEventListener('mouseout', function (){
 
-    Home.style.width = '0px';
-    Home.style.height = '3px';
-    Home.style.content = '';
-    Home.style.background = 'white';
-    Home.style.marginTop = '65px';
+    About.style.width = '0px';
+    About.style.height = '3px';
+    About.style.content = '';
+    About.style.background = 'white';
+    About.style.marginTop = '65px';
 })
 
 Blog.addEventListener('mousemove', function sx(){
-    Home.style.width = '67px';
-    Home.style.height = '3px';
-    Home.style.content = '';
-    Home.style.background = 'white';
-    Home.style.marginTop = '60px';
+    Blog.style.width = '67px';
+    Blog.style.height = '3px';
+    Blog.style.content = '';
+    Blog.style.background = 'white';
+    Blog.style.marginTop = '60px';
 })
 Blog.addEventListener('mouseout', function (){
 
-    Home.style.width = '0px';
-    Home.style.height = '3px';
-    Home.style.content = '';
-    Home.style.background = 'white';
-    Home.style.marginTop = '65px';
+    Blog.style.width = '0px';
+    Blog.style.height = '3px';
+    Blog.style.content = '';
+    Blog.style.background = 'white';
+    Blog.style.marginTop = '65px';
 })
 
 Contact.addEventListener('mousemove', function sx(){
-    Home.style.width = '67px';
-    Home.style.height = '3px';
-    Home.style.content = '';
-    Home.style.background = 'white';
-    Home.style.marginTop = '60px';
+    Contact.style.width = '67px';
+    Contact.style.height = '3px';
+    Contact.style.content = '';
+    Contact.style.background = 'white';
+    Contact.style.marginTop = '60px';
 })
 Contact.addEventListener('mouseout', function (){
 
-    Home.style.width = '0px';
-    Home.style.height = '3px';
-    Home.style.content = '';
-    Home.style.background = 'white';
-    Home.style.marginTop = '65px';
+    Contact.style.width = '0px';
+    Contact.style.height = '3px';
+    Contact.style.content = '';
+    Contact.style.background = 'white';
+    Contact.style.marginTop = '65px';
 })
